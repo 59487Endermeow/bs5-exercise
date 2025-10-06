@@ -1,0 +1,145 @@
+/*
+Red Lantern redesign
+HFWD Chapter 1
+*/
+
+/*
+The font size here is set to 62.5% so that
+1em = 10px. This makes adjusting our typography
+a little easier
+*/
+body {
+	margin: 0 auto;
+	width: 100%;
+	padding: 0;
+	/* background: #6e0427 url('../images/body_bg.gif') repeat-x top; */
+	font-family: Helvetica, sans-serif;
+	font-size: 62.5%;
+	color: #333;
+	background-image: linear-gradient(to bottom, #76e05b, rgb(38, 151, 39));
+	background-repeat: no-repeat;
+	background-position:top;
+	background-origin: border-box;
+}
+
+h1, h2, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2{
+	color:#fff;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+}
+h1 {
+	font-size: 1.8em;
+	
+}
+h2{
+	font-size: 1em;
+}
+p {
+	font-size: 1.4em;
+	line-height: 1.4em;
+	color:#333;
+}
+h4, h6{
+ color:#76e05b;
+}
+h6{
+	text-decoration: underline;
+}
+h5{
+	color:#377e1d;
+}
+.icon{
+	width: 40%;
+	height: auto;
+	float: left;
+	margin: 10px;
+	padding: 10px;
+	min-width: 100px;
+	
+}
+
+.a02{
+	color:#333;
+	text-decoration: underline;
+	text-shadow: none;
+}
+#nav{
+
+	background-image:linear-gradient(to bottom, #367327, rgb(38, 151, 39));
+	color:#fff;
+	border:1px solid #fff;
+	
+	border-radius: 5px;
+}
+
+#sidebar{
+	background-color: #eeeeee;
+	display: grid;
+	gap:10px 10px;
+}
+
+#realft{
+	text-align: center;
+}
+.text{
+	line-height: 1.8;
+}
+
+.fott{
+	color:#fff;
+}
+
+.fott2{
+	color:#fff;
+	font-weight: bold;
+}
+
+a:link {
+color: #73e037;
+	font-weight: bold;
+}
+.a01{
+	color: #73e037;
+	text-shadow: 0px 2px #333;
+    font-weight: bold;
+}
+a:visited {
+	color: #333;
+	background: #eeeeee00;
+}
+.head01{
+  position: relative;
+  max-height: 350px; 
+  overflow: visible;
+}
+#headerimg{
+	max-width: 90%;
+}
+#mainContent{
+	background-image: linear-gradient(to bottom, #e6e6e6, rgb(255, 255, 255));
+	box-align: center;
+	padding-top: 20%;
+	padding-left: 10%;
+    padding-right: 10%;
+	padding-bottom: 1% ;
+}
+
+#icon2{
+	width:30px;
+	margin: 5px;
+}
+#footer {
+	clear: both;
+	background-image: linear-gradient(to bottom, #76e05b, rgb(38, 151, 39));
+	background-repeat: no-repeat;
+	padding-top: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	border-top: 2px solid #507340;
+
+	color: #ffffff;
+}

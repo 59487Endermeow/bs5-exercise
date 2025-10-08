@@ -107,10 +107,7 @@ color: #73e037;
 	text-shadow: 0px 2px #333;
     font-weight: bold;
 }
-a:visited {
-	color: #333;
-	background: #eeeeee00;
-}
+
 .head01{
   position: relative;
   max-height: 350px; 
